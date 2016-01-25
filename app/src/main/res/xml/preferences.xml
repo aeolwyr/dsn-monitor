@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ DSN Monitor is an app to monitor the NASA Deep Space Network in real time.
+  ~ Copyright (c) 2016 Kaan Karaagacli
+  ~
+  ~ This file is part of DSN Monitor.
+  ~
+  ~ DSN Monitor is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ DSN Monitor is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with DSN Monitor.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/general_category">
+        <EditTextPreference
+            android:key="capture_interval"
+            android:title="@string/capture_interval_title"
+            android:summary="@string/capture_interval_summary"
+            android:inputType="number"
+            android:defaultValue="5" />
+        <EditTextPreference
+            android:key="history_size"
+            android:title="@string/history_size_title"
+            android:summary="@string/history_size_summary"
+            android:inputType="number"
+            android:defaultValue="100" />
+        <CheckBoxPreference
+            android:key="show_acronym_help"
+            android:title="@string/acronym_help_title"
+            android:summary="@string/acronym_help_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/units_category">
+        <ListPreference
+            android:key="wind_speed_unit"
+            android:title="@string/wind_speed_title"
+            android:entries="@array/speed_units"
+            android:entryValues="@array/three_values"
+            android:defaultValue="1" />
+        <ListPreference
+            android:key="data_rate_unit"
+            android:title="@string/data_rate_title"
+            android:entries="@array/data_rate_units"
+            android:entryValues="@array/two_values"
+            android:defaultValue="1" />
+        <ListPreference
+            android:key="download_power_unit"
+            android:title="@string/download_power_title"
+            android:entries="@array/power_units"
+            android:entryValues="@array/two_values"
+            android:defaultValue="1" />
+        <ListPreference
+            android:key="upload_power_unit"
+            android:title="@string/upload_power_title"
+            android:entries="@array/power_units"
+            android:entryValues="@array/two_values"
+            android:defaultValue="2" />
+        <ListPreference
+            android:key="range_unit"
+            android:title="@string/range_title"
+            android:entries="@array/distance_units"
+            android:entryValues="@array/three_values"
+            android:defaultValue="1" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/about_category">
+        <Preference
+            android:title="@string/about_dev_title"
+            android:summary="github.com/aeolwyr">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://www.github.com/aeolwyr" />
+        </Preference>
+        <Preference
+            android:title="@string/about_data_title"
+            android:summary="eyes.nasa.gov/dsn">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://eyes.nasa.gov/dsn/dsn.html" />
+        </Preference>
+        <Preference
+            android:title="@string/about_icons_title"
+            android:summary="design.google.com/icons">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://design.google.com/icons/" />
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ DSN Monitor is an app to monitor the NASA Deep Space Network in real time.
+  ~ Copyright (c) 2016 Kaan Karaagacli
+  ~
+  ~ This file is part of DSN Monitor.
+  ~
+  ~ DSN Monitor is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ DSN Monitor is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with DSN Monitor.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+    <color name="primary">#FF9800</color>
+    <color name="primary_dark">#F57C00</color>
+    <!--<color name="primary_light">#FFE0B2</color> is not used -->
+    <color name="accent">#536DFE</color>
+
+    <color name="primary_text">#DE000000</color>
+    <color name="secondary_text">#DEF57C00</color>
+</resources>

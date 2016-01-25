@@ -1,0 +1,48 @@
+<!--
+  ~ DSN Monitor is an app to monitor the NASA Deep Space Network in real time.
+  ~ Copyright (c) 2016 Kaan Karaagacli
+  ~
+  ~ This file is part of DSN Monitor.
+  ~
+  ~ DSN Monitor is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ DSN Monitor is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with DSN Monitor.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".presentation.MainActivity">
+    <item android:id="@+id/action_monitor"
+        android:title="@string/monitor"
+        android:icon="@drawable/ic_ondemand_video"
+        android:showAsAction="ifRoom"
+        android:visible="false" />
+    <item android:id="@+id/action_pause"
+        android:title="@string/pause"
+        android:icon="@drawable/ic_ondemand_video_pause"
+        android:showAsAction="ifRoom"
+        android:visible="true" />
+    <item android:id="@+id/action_open"
+        android:title="@string/open"
+        android:icon="@drawable/ic_folder_open"
+        android:showAsAction="ifRoom" />
+    <item android:id="@+id/action_save"
+        android:title="@string/save"
+        android:icon="@drawable/ic_save"
+        android:showAsAction="ifRoom" />
+    <item android:id="@+id/action_history"
+        android:title="@string/history"
+        android:showAsAction="never" />
+    <item android:id="@+id/action_settings"
+        android:title="@string/settings"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>

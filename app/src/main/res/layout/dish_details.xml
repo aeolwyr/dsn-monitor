@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ DSN Monitor is an app to monitor the NASA Deep Space Network in real time.
+  ~ Copyright (c) 2016 Kaan Karaagacli
+  ~
+  ~ This file is part of DSN Monitor.
+  ~
+  ~ DSN Monitor is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ DSN Monitor is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with DSN Monitor.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dish_not_in_use_row">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dish_not_in_use" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/azimuth"
+            android:layout_weight="1"
+            tools:text="@string/azimuth_angle" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/elevation"
+            android:layout_weight="1"
+            tools:text="@string/elevation_angle" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/wind"
+            android:layout_weight="1"
+            tools:text="@string/wind_speed" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mspa"
+            android:layout_weight="1"
+            tools:text="@string/mspa"
+            android:onClick="showOnClickHelp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/array"
+            android:layout_weight="1"
+            tools:text="@string/array" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ddor"
+            android:layout_weight="1"
+            tools:text="@string/ddor"
+            android:onClick="showOnClickHelp" />
+
+    </TableRow>
+
+    <include
+        layout="@layout/signal_details_1"
+        android:id="@+id/down_signal_1_1" />
+    <include
+        layout="@layout/signal_details_2"
+        android:id="@+id/down_signal_1_2" />
+    <include
+        layout="@layout/signal_details_3"
+        android:id="@+id/down_signal_1_3" />
+
+    <include
+        layout="@layout/signal_details_1"
+        android:id="@+id/down_signal_2_1" />
+    <include
+        layout="@layout/signal_details_2"
+        android:id="@+id/down_signal_2_2" />
+    <include
+        layout="@layout/signal_details_3"
+        android:id="@+id/down_signal_2_3" />
+
+    <include
+        layout="@layout/signal_details_1"
+        android:id="@+id/down_signal_3_1" />
+    <include
+        layout="@layout/signal_details_2"
+        android:id="@+id/down_signal_3_2" />
+    <include
+        layout="@layout/signal_details_3"
+        android:id="@+id/down_signal_3_3" />
+
+    <include
+        layout="@layout/signal_details_1"
+        android:id="@+id/up_signal_1" />
+    <include
+        layout="@layout/signal_details_2"
+        android:id="@+id/up_signal_2" />
+    <include
+        layout="@layout/signal_details_3"
+        android:id="@+id/up_signal_3" />
+
+    <include
+        layout="@layout/target_details_1"
+        android:id="@+id/target_1_1" />
+    <include
+        layout="@layout/target_details_2"
+        android:id="@+id/target_1_2" />
+
+    <include
+        layout="@layout/target_details_1"
+        android:id="@+id/target_2_1" />
+    <include
+        layout="@layout/target_details_2"
+        android:id="@+id/target_2_2" />
+
+    <include
+        layout="@layout/target_details_1"
+        android:id="@+id/target_3_1" />
+    <include
+        layout="@layout/target_details_2"
+        android:id="@+id/target_3_2" />
+
+</TableLayout>

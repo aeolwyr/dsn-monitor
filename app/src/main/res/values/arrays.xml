@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ DSN Monitor is an app to monitor the NASA Deep Space Network in real time.
+  ~ Copyright (c) 2016 Kaan Karaagacli
+  ~
+  ~ This file is part of DSN Monitor.
+  ~
+  ~ DSN Monitor is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ DSN Monitor is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with DSN Monitor.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+    <string-array name="speed_units">
+        <item>@string/kilometers_per_hour</item>
+        <item>@string/miles_per_hour</item>
+        <item>@string/meters_per_second</item>
+    </string-array>
+
+    <string-array name="data_rate_units">
+        <item>@string/bits_per_second</item>
+        <item>@string/bytes_per_second</item>
+    </string-array>
+
+    <string-array name="power_units">
+        <item>@string/decibel_milliwatts</item>
+        <item>@string/watts</item>
+    </string-array>
+
+    <string-array name="distance_units">
+        <item>@string/kilometers</item>
+        <item>@string/miles</item>
+        <item>@string/astronomical_units</item>
+    </string-array>
+
+    <string-array name="two_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="three_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>
