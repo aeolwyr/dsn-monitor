@@ -7,10 +7,16 @@ in real time, or it can show a previously saved state of the network.
 
 What is DSN?
 ------------
-The NASA Deep Space Network is a network of antennas located in the US, Spain and Australia.
-It is used to communicate with the spacecrafts located in the deep space. For more information,
-see the [DSN homepage](https://deepspace.jpl.nasa.gov/), or its
+The NASA Deep Space Network is a network of antennas located in the US, Spain
+and Australia. It is used to communicate with the spacecrafts located in the
+deep space. For more information, see the
+[DSN homepage](https://deepspace.jpl.nasa.gov/), or its
 [Wikipedia page](https://en.wikipedia.org/wiki/NASA_Deep_Space_Network).
+
+Download
+--------
+[<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" height="50px">](https://play.google.com/store/apps/details?id=me.aeolwyr.dsnnow)  
+…or download directly from the [releases page](https://github.com/aeolwyr/dsn-monitor/releases).
 
 Features
 --------
