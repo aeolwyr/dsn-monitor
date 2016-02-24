@@ -72,6 +72,8 @@
     <string name="unpin_error">Error while unpinning the file</string>
     <string name="pin_description">Pin this file</string>
 
+    <string name="help_DSCC">Deep Space Communications Complex</string>
+    <string name="help_DSS">Deep Space Station</string>
     <string name="help_34M">34 meters, beam waveguide</string>
     <string name="help_34MHEF">34 meters, high efficiency</string>
     <string name="help_70M">70 meters</string>

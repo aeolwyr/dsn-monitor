@@ -116,6 +116,7 @@ public class NetworkAdapter extends BaseExpandableListAdapter {
             // name (e.g. "gdscc")
             TextView name = (TextView) convertView.findViewById(R.id.name);
             name.setText(stationName);
+            name.setClickable(PrefsManager.isAcronymHelpEnabled(context));
 
         } else {
             // inflate the view if necessary
@@ -133,8 +134,9 @@ public class NetworkAdapter extends BaseExpandableListAdapter {
             DishState dishState = state.getDishStates().get(dishName);
 
             // friendly name (e.g. "DSS15")
-            TextView name = (TextView) convertView.findViewById(R.id.name);
-            name.setText(dishName);
+            TextView friendlyName = (TextView) convertView.findViewById(R.id.friendly_name);
+            friendlyName.setText(dishName);
+            friendlyName.setClickable(PrefsManager.isAcronymHelpEnabled(context));
 
             // type (e.g. "35MHEF")
             TextView type = (TextView) convertView.findViewById(R.id.type);

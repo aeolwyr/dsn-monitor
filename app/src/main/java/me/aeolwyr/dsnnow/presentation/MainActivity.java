@@ -462,6 +462,12 @@ public class MainActivity extends Activity {
     public void showOnClickHelp(View view) {
         // show help according to their IDs
         switch (view.getId()) {
+            case R.id.name:
+                Toast.makeText(this, getString(R.string.help_DSCC), Toast.LENGTH_SHORT).show();
+                return;
+            case R.id.friendly_name:
+                Toast.makeText(this, getString(R.string.help_DSS), Toast.LENGTH_SHORT).show();
+                return;
             case R.id.type:
                 TextView textView = (TextView) view;
                 switch (textView.getText().toString()) {
