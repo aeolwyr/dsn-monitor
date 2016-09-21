@@ -76,6 +76,7 @@
 		<spacecraft name="no16" explorerName="sc_noaa_16" friendlyName="NOAA 16"></spacecraft>
 		<spacecraft name="no17" explorerName="sc_noaa_17" friendlyName="NOAA 17"></spacecraft>
 		<spacecraft name="no18" explorerName="sc_noaa_18" friendlyName="NOAA 18"></spacecraft>
+		<spacecraft name="orx" explorerName="sc_osiris_rex" friendlyName="OSIRIS-REx" thumbnail="true"></spacecraft>
 		<spacecraft name="phx" explorerName="sc_phoenix" friendlyName="Phoenix"></spacecraft>
 		<spacecraft name="plc" explorerName="sc_akatsuki" friendlyName="Akatsuki" thumbnail="true"></spacecraft>
 		<spacecraft name="polr" explorerName="sc_polar" friendlyName="POLAR"></spacecraft>
