@@ -16,9 +16,9 @@
 		</site>
 		<site name="cdscc" friendlyName="Canberra" longitude="148.9812673" latitude="-35.2209189">
 			<dish name="DSS43" friendlyName="DSS 43" type="70M"></dish>
-			<dish name="DSS45" friendlyName="DSS 45" type="34MHEF"></dish>
 			<dish name="DSS34" friendlyName="DSS 34" type="34M"></dish>
 			<dish name="DSS35" friendlyName="DSS 35" type="34M"></dish>
+			<dish name="DSS36" friendlyName="DSS 36" type="34M"></dish>
 		</site>
 	</sites>
 	<spacecraftMap>
@@ -98,6 +98,7 @@
 		<spacecraft name="tdr8" explorerName="sc_tdrs_8" friendlyName="TDRS 8" thumbnail="true"></spacecraft>
 		<spacecraft name="tdr9" explorerName="sc_tdrs_9" friendlyName="TDRS 9" thumbnail="true"></spacecraft>
 		<spacecraft name="terr" explorerName="sc_terra" friendlyName="TERRA" thumbnail="true"></spacecraft>
+		<spacecraft name="tgo" explorerName="" friendlyName="Trace Gas Orbiter" thumbnail="true"></spacecraft>
 		<spacecraft name="thb" explorerName="sc_themis_b" friendlyName="THEMIS B" thumbnail="true"></spacecraft>
 		<spacecraft name="thc" explorerName="sc_themis_c" friendlyName="THEMIS C" thumbnail="true"></spacecraft>
 		<spacecraft name="ulys" explorerName="sc_ulysses" friendlyName="Ulysses"></spacecraft>
