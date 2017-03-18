@@ -241,6 +241,9 @@ public class MainActivity extends Activity {
             ExpandableListView expandableListView =
                     (ExpandableListView) findViewById(R.id.expandable_list_view);
             expandableListView.setAdapter(adapter);
+
+            // enable save as there is now data to save
+            menu.findItem(R.id.action_save).setEnabled(true);
         }
         adapter.setNetworkState(networkState);
         // also set the timestamp indicator
