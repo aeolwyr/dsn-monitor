@@ -1,0 +1,50 @@
+<!--
+  ~ DSN Monitor is an app to monitor the NASA Deep Space Network in real time.
+  ~ Copyright (c) 2018 Kaan Karaagacli
+  ~
+  ~ This file is part of DSN Monitor.
+  ~
+  ~ DSN Monitor is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ DSN Monitor is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with DSN Monitor.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<vector android:height="24dp" android:viewportHeight="31"
+    android:viewportWidth="31" android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ff9800" android:pathData="M15.5,15.4999m-14.5,0a14.5,14.5 0,1 1,29 0a14.5,14.5 0,1 1,-29 0"/>
+    <path android:fillColor="#00000000"
+        android:pathData="m14.477,22.2v5.0127"
+        android:strokeColor="#000" android:strokeLineCap="round" android:strokeWidth="1.4336"/>
+    <path android:fillColor="#00000000"
+        android:pathData="m7.2221,9.2 l10.124,2.253"
+        android:strokeColor="#000" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth=".58502"/>
+    <path android:fillColor="#00000000"
+        android:pathData="m17.346,11.4999 l6.0264,8.5529"
+        android:strokeColor="#000" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth=".58502"/>
+    <path android:fillColor="#00000000"
+        android:pathData="m11.639,20.3c-3.5799,-2.3952 -5.3357,-6.7793 -4.4166,-11.028m16.15,10.806c-3.4892,2.5291 -8.1539,2.6175 -11.734,0.2222"
+        android:strokeColor="#000" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="1.3651"/>
+    <path android:fillColor="#00000000"
+        android:pathData="m17.414,11.4999 l-5.6958,8.6933"
+        android:strokeColor="#000" android:strokeWidth=".58502"/>
+    <path android:fillColor="#00000000"
+        android:pathData="m25.961,8.8c-1.6821,0.8094 -3.6718,0.5774 -5.1289,-0.598 -1.4571,-1.1755 -2.1278,-3.0895 -1.7288,-4.934"
+        android:strokeColor="#000" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth=".39002"/>
+    <path android:fillColor="#00000000"
+        android:pathData="m25.075,6.9c-0.9811,0.4562 -2.1323,0.3103 -2.9726,-0.3768 -0.8403,-0.687 -1.2252,-1.797 -0.9939,-2.8663"
+        android:strokeColor="#000" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth=".39002"/>
+</vector>
